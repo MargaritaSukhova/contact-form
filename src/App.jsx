@@ -1,8 +1,9 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
-import Form from "./components/form/Form";
 import { SectionStyled } from "./components/section/Section.styled";
+import Form from "./components/form/Form";
+import Map from "./components/map/Map";
 import Title from "./components/title/Title";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 					<Title title="Reach out to us!"></Title>
 					<Form></Form>
 				</div>
-				<div></div>
+				<Map></Map>
 			</SectionStyled>
 
 			<Footer></Footer>

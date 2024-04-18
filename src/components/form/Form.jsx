@@ -1,7 +1,11 @@
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { addUser } from "../../redux/operations";
-import { FormStyled, InputStyled, ButtonStyled } from "./Form.styled";
+import {
+	FormStyled,
+	InputStyled,
+	MessageInput, ButtonStyled,
+} from "./Form.styled";
 
 export default function Form() {
 	const dispatch = useDispatch();
@@ -46,14 +50,14 @@ export default function Form() {
 				})}
 			></InputStyled>
 			{errors.email && <p>{errors.email.message}</p>}
-			<InputStyled
+			<MessageInput
 				type="text"
 				name="message"
 				placeholder="Your message*"
 				{...register("message", {
 					required: "Please fill the message field",
 				})}
-			></InputStyled>
+			></MessageInput>
 			{errors.message && <p>{errors.message.message}</p>}
 			<ButtonStyled type="submit">Send message</ButtonStyled>
 		</FormStyled>

@@ -9,5 +9,5 @@ export const SectionStyled = styled.section`
 	background-size: cover, auto, auto;
 	flex: 1 1 auto;
 	display: flex;
-	flex-direction: column;
+	gap: 107px;
 `;

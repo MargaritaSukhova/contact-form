@@ -16,17 +16,23 @@ export const InputStyled = styled.input`
 	border: 1px solid #dcdcdc;
 	background: #fff;
 `;
-
+export const MessageInput = styled(InputStyled)`
+	height: 189px;
+`;
 export const ButtonStyled = styled.button`
 	margin-top: 15px;
 	width: 218px;
 	height: 73px;
 	border: 0;
 	border-radius: 500px;
-	background: #fad34f;
+	background-color: #fad34f;
 	color: #fff;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	transition: background-color 300ms ease;
+	&:hover {
+		background-color: #f472b7;
+	}
 `;
