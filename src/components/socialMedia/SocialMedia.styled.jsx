@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
-import Linkedin from "../../icons/linkedIn.svg?react";
-import Twitter from "../../icons/twitter.svg?react";
-import Facebook from "../../icons/facebook.svg?react";
-import Pinterest from "../../icons/pinterest.svg?react";
+import Linkedin from "../../assets/icons/linkedIn.svg?react";
+import Twitter from "../../assets/icons/twitter.svg?react";
+import Facebook from "../../assets/icons/facebook.svg?react";
+import Pinterest from "../../assets/icons/pinterest.svg?react";
 
 export const SocialContainer = styled.div`
 	margin-top: 79px;

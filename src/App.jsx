@@ -1,8 +1,8 @@
 import "./App.css";
-import Footer from "./assets/components/footer/Footer";
-import Form from "./assets/components/form/Form";
-import { SectionStyled } from "./assets/components/section/Section.styled";
-import Title from "./assets/components/title/Title";
+import Footer from "./components/footer/Footer";
+import Form from "./components/form/Form";
+import { SectionStyled } from "./components/section/Section.styled";
+import Title from "./components/title/Title";
 
 function App() {
 	return (
