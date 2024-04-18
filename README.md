@@ -1,8 +1,15 @@
-# React + Vite
+# Feedback form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Please awake a [backend](https://nest-backend-roq2.onrender.com/) before using a Feedback form
+Backend [repository]([https://www.google.com/search?client=safari&rls=en&q=repository&ie=UTF-8&oe=UTF-8](https://github.com/MargaritaSukhova/nest-backend))
 
-Currently, two official plugins are available:
+## Technologies and libraries used to create the project:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* This project was created with the help of [Vite + React](https://github.com/vitejs/vite)
+* [React Redux](https://react-redux.js.org)
+* [Redux Toolkit](https://redux-toolkit.js.org)
+* [Emotion Styled](https://emotion.sh/docs/styled)
+* [Axios](https://axios-http.com/ru/docs/intro)
+* [React Hook Form](https://react-hook-form.com)
+* HTML
+* CSS
