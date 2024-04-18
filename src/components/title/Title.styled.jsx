@@ -7,7 +7,9 @@ export const TitleStyled = styled.h1`
 	font-style: normal;
 	font-weight: 400;
 	line-height: calc(52 / 40);
+	margin-bottom: 22px;
 
-	margin-top: 179px;
-	margin-left: 147px;
+	@media (max-width: 420px) {
+		font-size: 32px;
+	}
 `;

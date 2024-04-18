@@ -14,4 +14,25 @@ export const FooterContainer = styled.footer`
 	position: relative;
 	overflow: hidden;
 	display: flex;
+
+	@media (max-width: 768px) {
+		background-image: url("src/assets/icons/turquoise.svg"),
+			url("src/assets/icons/yellow.svg");
+		background-repeat: no-repeat;
+		background-size: auto auto;
+		background-position: top 0px right 127px, top 55px right -38px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	@media (max-width: 420px) {
+		background-image: url("src/assets/icons/yellow.svg");
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-position: top 55px right -38px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 `;

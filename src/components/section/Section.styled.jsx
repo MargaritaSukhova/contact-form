@@ -10,4 +10,8 @@ export const SectionStyled = styled.section`
 	flex: 1 1 auto;
 	display: flex;
 	gap: 107px;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
 `;

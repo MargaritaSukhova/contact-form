@@ -1,11 +1,13 @@
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
+import toast from "react-hot-toast";
 import { addUser } from "../../redux/operations";
 import {
 	FormStyled,
 	InputStyled,
 	MessageInput, ButtonStyled,
 } from "./Form.styled";
+import Title from "../title/Title";
 
 export default function Form() {
 	const dispatch = useDispatch();
@@ -20,14 +22,16 @@ export default function Form() {
 		try {
 			await dispatch(addUser(data));
 			reset();
-			// toast.success("Registration successful");
+			toast.success("Message was sent!");
 		} catch (error) {
 			console.error(error);
+			toast.success("Something went wrong, please try again");
 		}
 	};
 
 	return (
 		<FormStyled onSubmit={handleSubmit(onSubmit)}>
+			<Title title="Reach out to us!"></Title>
 			<InputStyled
 				type="text"
 				name="name"

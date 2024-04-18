@@ -12,6 +12,14 @@ export const SocialContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@media (max-width: 768px) {
+		margin: 0;
+	}
+
+	@media (max-width: 420px) {
+		margin: 0;
+	}
 `;
 
 export const Link = styled.a`

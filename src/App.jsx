@@ -1,22 +1,19 @@
 import "./App.css";
-import { SectionStyled } from "./components/section/Section.styled";
+import Section from "./components/section/Section";
 import Form from "./components/form/Form";
 import Map from "./components/map/Map";
-import Title from "./components/title/Title";
 import Footer from "./components/footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 function App() {
 	return (
 		<>
-			<SectionStyled>
-				<div>
-					<Title title="Reach out to us!"></Title>
-					<Form></Form>
-				</div>
-				<Map></Map>
-			</SectionStyled>
-
+			<Section>
+				<Form />
+				<Map />
+			</Section>
 			<Footer></Footer>
+			<Toaster />
 		</>
 	);
 }
