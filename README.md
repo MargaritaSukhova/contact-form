@@ -1,7 +1,8 @@
 # Feedback form
 
 Please awake a [backend](https://nest-backend-roq2.onrender.com/) before using a Feedback form
-Backend [repository]([https://www.google.com/search?client=safari&rls=en&q=repository&ie=UTF-8&oe=UTF-8](https://github.com/MargaritaSukhova/nest-backend))
+
+Backend [repository](https://github.com/MargaritaSukhova/nest-backend)
 
 ## Technologies and libraries used to create the project:
 
