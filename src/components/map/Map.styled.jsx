@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import Pink from "../../assets/icons/pink.svg?react";
 import YellowBig from "../../assets/icons/yellow-big.svg?react";
+import map from "../../assets/images/map.jpg";
 
 export const MapWrapper = styled.div`
 	width: 624px;
@@ -35,7 +36,7 @@ export const Img = styled.div`
 	width: 976px;
 	height: 976px;
 	border-radius: 100%;
-	background-image: url("src/assets/images/map.jpg");
+	background-image: url("${map}");
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
